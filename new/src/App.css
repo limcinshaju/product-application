@@ -1,0 +1,59 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+body{
+  background-color:rgb(234,232,155);
+  background: linear-gradient(252deg, rgba(234,232,155,1) 0%, rgba(144,74,79,1) 100%);
+  display: flex;
+  align-items: center;
+}
+.card {
+  height: 400px; /* Set a fixed height for the card */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; /* Distribute space between elements */
+  padding: 30px;
+  
+}
+
+.card-media {
+  display: flex;
+  justify-content: center; /* Center the image horizontally */
+  align-items: center; /* Center the image vertically */
+  height: 140px; /* Set a fixed height for the media area */
+}
+
+.card-content {
+  flex-grow: 1; /* Allows content to take up remaining space */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; /* Ensures content is spaced evenly */
+}
+
+.img{
+  margin-top: 100px;
+  padding: 20%;
+}
+
+
+.form{
+  background-color:rgb(234,232,155);
+  background: linear-gradient(252deg, rgba(234,232,155,1) 0%, rgba(144,74,79,1) 100%);
+  width: 500px;
+  height: 600px;
+  border-radius: 8px;
+  /* border: solid 1px; */
+  /* border-color: #0f0e0e; */
+  color: #f0f0f0;
+  margin-top: 20px;
+  box-shadow: 0 1px 10px rgba(9, 9, 9, 0.932);
+}
+
+.form .MuiOutlinedInput-root {
+  background-color: #f0f0f0; /* Change this to your desired background color */
+  border: 1px solid rgb(15, 5, 20); 
+  color: rgb(12, 12, 12); /* Change this to your desired border color */
+}
